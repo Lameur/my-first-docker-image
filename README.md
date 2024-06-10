@@ -31,7 +31,8 @@ A partir de maintenant il faudra pousser les résultats sur github pour tester l
 A la fin du workflow, il publie l'image docker que tu as créé sur dockerhub.com. Télécharge cette image. Lance-la et vérifie que la page html qui s'affiche désormais est bien celle que l'on attendait.
 
 ## Mettre à jour le workflow
-Le workflow appelle des actions en spécifiant des versions obsolètes. 
+Le workflow appelle des actions en spécifiant des versions obsolètes. Mets le workflow à jour avec les dernières versions d'action possible.
 
 ## Bonus
 Ajouter des triggers au workflow
+Trouver l'easter egg
