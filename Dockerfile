@@ -9,9 +9,6 @@ FROM python:3.9-slim
 HEALTHCHECK --interval=5s --timeout=3s \
 	CMD curl -f http://localhost/ || exit 1
 
-
-USER system
-
 # Définir le répertoire de travail dans le conteneur
 # Lien vers la doc: https://docs.docker.com/reference/dockerfile/
 WORKDIR /usr/src/app
